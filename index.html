@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieSpot</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+      <!-- header section starts  -->
+      <header class="header">
+        <nav class="navbar">
+            <div href="#" class="logo"><i class="fa-solid fa-burger"></i>foodieSpot<span>.</span></div>
+                     
+            <!-- desktop menu -->
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="desktop-action">   
+                <a href="#" class="cart-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>   
+                </a>
+
+                <a href="#sign-in" class="btn signin-btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                
+                <a href="#" class="menu-bars"><i class="fas fa-bars"></i></a>
+            </div>
+
+        </nav>
+            
+        <!-- mobile menu-->
+         <ul class="mobile-menu">
+                <li class="color"><a href="#home">Home</a></li>
+                <li class="color"><a href="#about">About</a></li>
+                <li class="color"><a href="#service">Service</a></li>   
+                <li class="color"><a href="#menu">Menu</a></li>             
+                <li class="color"><a href="#review">Review</a></li>
+                <li class="color"><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#sign-in" class="btn signin-btn">Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </li>
+        </ul>
+
+      </header>
+    <!-- header section ends  -->
+    <!-- sections part starts-->
+
+     <main class="main">
+        <!-- home section-->
+        <section id="home">
+           <div class="main-section" >
+              <div class="content">
+                 <h3>
+                    Enjoy Your Delecious Food,try 
+                    <span>"Savour the Flavour"</span>
+
+                 </h3>
+                 <p class="para">
+                    Indulge in our mouth-watering dishes and refreshing drinks.
+                    get the fastest delivery in town!
+                 </p>
+                 <p class="para">
+                    Craving something delicious? We deliver the best food to your 
+                    doorstep in a flash!
+                 </p>
+                 <div class="order-food">
+                    <a href="#menu" class="btn">Order Food &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                 </div>
+                </div>
+
+                <div class="image-container">
+
+                  <div class="slide-container">
+                    <div class="slider">
+                                <div class="slide">
+                                    <img src="images/juicy-cheeseburger.jpg" width=600px height=350px alt="food image">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/pasta.jpg" width=600px height=350px alt="food image">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/crispy-chicken-nuggets.webp" width=600px height=350px alt="food image">
+                                </div>
+                                <div class="slide">
+                                    <img src="images/taccos.jpg" width=600px height=350px alt="food image">
+                                </div>
+                    </div>
+                   <div class="dots-container"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- about section-->
+        <section id="about">
+            <h3 class="section-heading">About Us</h3>
+            <div class="about-section">
+                <div class="video-container">
+                    <video src="images/burger-video.mp4" width=500px height=360px controls autoplay muted loop></video>
+                </div>
+                <div class="about-content">
+                    <h2>Fresh Ingredients, Delicious Meals</h2>
+                    <p class="para">At FoodieSpot, we are passionate about delivering delicious food right to your doorstep.</p>
+                    <p class="para">FoodieSpot is your go-to destination for delicious food delivery. We are committed to providing
+                         high-quality meals and exceptional service to our customers.</p>
+                    <p class="para">We believe in using only the freshest ingredients and preparing each dish with care. and we are constantly innovating
+                         to bring you the best flavors from around the world.</p>
+                    <a href="#home" class="btn knowmore-btn">Know More</a>
+                </div>
+            </div>
+        </section>
+            
+        <!-- service section-->
+        <section id="service">
+            <div class="service-section">
+                <h2 class="section-heading">Our Services</h2>
+                <p>We provide fast and reliable food delivery right to your doorstep.
+                    Enjoy a wide variety of cuisines from local favorites to international delights, all in one place.</p>
+            </div>
+            <h3>How It Works?</h3>
+            <div class="service-image">
+                <div class="service-card">
+                    <div class="image-container">
+                        <img src="images/order (2).png" alt="order food" width=50px height=50px>
+                    </div>
+                    <h5 >Easy to Order</h5>
+                    <p class="para">Browse our menu, select your favorite dishes, and place your order with just a few clicks.</p>
+                </div>
+                <div class="service-card">
+                    <div class="image-container">
+                        <img src="images/delivery-bike.png" alt="fast delivery" width=50px height=50px>
+                    </div>
+                    <h5>Fast Delivery</h5>
+                    <p class="para">Our delivery team ensures that your food reaches you quickly and in perfect condition.</p>
+                </div>
+                <div class="service-card">
+                    <div class="image-container">
+                        <img src="images/best-food.png" alt="enjoy food" width=50px height=50px>
+                    </div>
+                    <h5>Best Quality</h5>
+                    <p class="para">We source the freshest ingredients and prepare your meals with care to ensure the best quality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu section-->
+        <section id="menu">
+            <div class="menu-section">
+                <h2 class="section-heading">Our Menu</h2>
+                <p>Explore our delicious menu featuring a wide variety of dishes to satisfy your cravings.</p>
+                <h3>The Most Popular Dishes</h3>
+            </div>
+            
+            <div class="menu-card">
+                <div class="card-list">
+                <!-- <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/vegburger.avif" alt="vegburger" width=200px height=150px>
+                        </div>
+                        <h4>Veg Burger</h4>
+                        <h4 class="price">&#8377; 149.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickenwings.avif" alt="chicken wings" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Wings</h4>
+                        <h4 class="price">&#8377; 299.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/friedchickenburger.avif" alt="fried chicken burger" width=200px height=150px>
+                        </div>
+                        <h4>Fried Chicken Burger</h4>
+                        <h4 class="price">&#8377; 249.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/corncheeseburger.avif" alt="corn cheeseburger" width=200px height=150px>
+                        </div>
+                        <h4>Corn Cheese Burger</h4>
+                        <h4 class="price">&#8377; 219.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickencheeseburger.avif" alt="chicken cheeseburger" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Cheese Burger</h4>
+                        <h4 class="price">&#8377; 279.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickentikkapizza.avif" alt="chicken tikka pizza" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Tikka Pizza</h4>
+                        <h4 class="price">&#8377; 349.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/shavarmafriedchicken.avif" alt="shavarma fried chicken" width=200px height=150px>
+                        </div>
+                        <h4>Fried Chicken shavarma</h4>
+                        <h4 class="price">&#8377; 199.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/paneerfriedsavarma.avif" alt="paneer fried shavarma" width=200px height=150px>
+                        </div>
+                        <h4>Paneer Fried Shavarma</h4>
+                        <h4 class="price">&#8377; 179.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/vegpizza.avif" alt="vegetable pizza" width=200px height=150px>
+                        </div>
+                        <h4>Vegetable Pizza</h4>
+                        <h4 class="price">&#8377; 149.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickenmomos.avif" alt="chicken momos" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Momos</h4>
+                        <h4 class="price">&#8377; 299.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickennuggets.avif" alt="chicken nuggets" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Nuggets</h4>
+                        <h4 class="price">&#8377; 339.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickenpasta.avif" alt="pasta" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Pasta</h4>
+                        <h4 class="price">&#8377; 299.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="images/chickenwings.avif" alt="chicken wings" width=200px height=150px>
+                        </div>
+                        <h4>Chicken Wings</h4>
+                        <h4 class="price">&#8377; 279.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="/FoodieSpot/images/fishfinger.avif" alt="fish finger" width=200px height=150px>
+                        </div>
+                        <h4>Fish Finger</h4>
+                        <h4 class="price">&#8377; 249.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="/FoodieSpot/images/frenchfries.avif" alt="french fries" width=200px height=150px>
+                        </div>
+                        <h4>French Fries</h4>
+                        <h4 class="price">&#8377; 149.00</h4>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div> -->
+
+                </div>
+
+        </section>
+
+        <!-- Cart Tab section-->
+        <section>
+             <div class="cart-tab">
+                    
+                    <h3>Your Cart</h3>
+                     
+                    <div class="cart-list">
+                        <!-- Cart items will be dynamically added here -->
+                        <!-- <div class="cart-item">
+                            <div class="item-image">
+                                <img src="images/chickencheeseburger.avif">
+                            </div>
+                            <div>
+                                <h4>Chicken Cheese Burger</h4>
+                                <h4 class="item-total">&#8377; 200.00</h4>
+                            </div>
+                            <div class="flex">
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-minus"></i>
+                                </a>
+                                <h4 class="quantity-value">1</h4>
+                                <a href="#" class="quantity-btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                            </div>
+                        </div> -->
+                        
+                    </div>
+                    <div class="cart-total">
+                        <h4>Total:</h4>
+                        <h4 class="cart-total">&#8377; 0.00</h4>
+                    </div>
+
+                    <div class="cart-buttons">
+                        <a href="#" class="btn close-btn">Close</a>
+                        <a href="#" class="btn ">Check Out</a>
+                    </div>
+
+                </div>
+        </section>
+
+        <!-- review section-->
+        <section id="review">
+            <h3 class="section-heading">Our Reviews</h3>
+            <div class="review-section">
+                <div class="image-container">
+                    <img src="images/people-taking-photos-food.jpg" alt="customer review" width=430px height=250px>
+                </div>
+                <div class="review-content">
+                    <h3>What Our Customers Say?</h3>
+                    <div class="r-slide-container">
+                        <div class="r-slider">
+                            <div class="r-slide">
+                               <div class="profile">
+                                   <img src="images/girl-1.jpg" alt="girl" width=100px height=100px>
+                                   <div class="name">
+                                      <h4>Riya</h4>
+                                      <div class="star">
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                      </div>
+                                   </div>
+                               </div>
+                               <p class="para">"I finally tried the chicken tikka pizza, and it's officially the best thing I've eaten all year! 
+                                The cheese sauce was rich and velvety, the pasta was perfectly tender and sweet. Every bite was a 
+                                pure comfort and indulgence. A true must-try!"</p>
+                            </div>
+                            <div class="r-slide">
+                               <div class="profile">
+                                   <img src="images/boy-1.jpg" alt="girl" width=100px height=100px>
+                                   <div class="name">
+                                      <h4>Aryan</h4>
+                                      <div class="star">
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star-half"></i>
+                                      </div>
+                                   </div>
+                               </div>
+                               <p class="para">"The food was absolutely amazing! Highly recommend the Chicken Wings and food was delivered promptly.Highly recommend!"</p>
+                            </div>
+                            <div class="r-slide">
+                               <div class="profile">
+                                   <img src="images/girl-2.jpg" alt="girl" width=100px height=100px>
+                                   <div class="name">
+                                      <h4>Aiswarya</h4>
+                                      <div class="star">
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star-half"></i>
+                                      </div>
+                                   </div>
+                               </div>
+                               <p class="para">"Amazing flavours! The spices were perfectly balanced, and the presentation was beautiful. The food delivery was prompt and the staff was friendly. Highly recommend!"</p>
+                            </div>
+                            <div class="r-slide">
+                               <div class="profile">
+                                   <img src="images/boy-2.jpg" alt="girl" width=100px height=100px>
+                                   <div class="name">
+                                      <h4>Rahul</h4>
+                                      <div class="star">
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                         <i class="fa-solid fa-star"></i>
+                                      </div>
+                                   </div>
+                               </div>
+                               <p class="para">"The food was fresh and delicious! Highly recommend the Margherita Pizza. Food delivery was prompt and the staff was friendly. Highly recommend!"</p>
+                            </div>
+                        </div>
+                        <button class="r-slider-btn prev">&#10094;</button>
+                        <button class="r-slider-btn next">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section starts  -->
+        <section id="contact">
+             <div class="contact-section">
+                <h3 class="section-heading">Our Subscribe</h3>
+                <h2>Subscribe To Our Newsletter</h2>
+                <p>We recommend you to subscribe our newspapar, drop your email below to get daily update about us.</p>
+                <label for="" class="input-container">
+                <input type="email" name="email" id="email"
+                        placeholder="Enter your email address" autocomplete="off">
+                        <a href="" class="btn">Subscribe</a>
+
+                </label>
+             </div>
+
+        </section>
+
+        <!-- contact section ends  -->
+
+        <!-- signin-page section starts -->
+        <div class="signin-page" id="sign-in">
+            <span class="icon-close"><i class="fa-solid fa-square-xmark"></i></span>
+            <div class="sign-in">
+                <h2>Sign in</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" required>
+                        <label class="email">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" required>
+                        <label class="password">Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label for=""><input type="checkbox">Remember me</label>
+                        <a href="">Forgot Password?</a>
+                    </div>
+                    <button class="sign-btn" type="submit">Sign in</button>
+                    <div class="signin-register">
+                        <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- signin-page section ends -->
+                        
+
+    <!-- footer section starts  -->
+     <footer>
+        <div class="footer">
+          <div class="footer-section">
+            <div class="info">
+              <h4>contact info</h4>
+               <ul>
+                  <li>123 Foodie St, Flavor Town, Chennai-645678</li>
+                  <li>Phone: (123) 456-7890</li>
+                  <li>Email:info@foodieSpot.com</li>
+                  </ul>
+            </div>
+            <div class="links">
+               <h4>quick link</h4>
+               <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#review">Review</a></li>
+               </ul>
+            </div>
+            <div class="social-icons">
+                <h4>follow us</h4>
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-square-google-plus"></i></a></li>
+                </ul>
+             </div>
+          </div>
+        <p class="copy">Copy Right &copy; 2025 Created by FoodieSpot company. All Rights Reserved!</p>
+        </div>
+     </footer>
+    <!-- footer section ends  -->
+
+    <script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
+
+    
+    

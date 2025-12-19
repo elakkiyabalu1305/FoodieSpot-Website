@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Veg Burger",
+        "price": "149.00",
+        "image": "images/vegburger.avif"
+    },
+    {
+        "id": 2,
+        "name": "Chicken Wings",
+        "price": "299.00",
+        "image": "images/chickenwings.avif"
+    },
+    {
+        "id": 3,
+        "name": "Fried Chicken Burger",
+        "price": "249.00",
+        "image": "images/friedchickenburger.avif"
+    },
+    {
+        "id": 4,
+        "name": "Corn Cheese Burger",
+        "price": "219.00",
+        "image": "images/corncheeseburger.avif"
+    },
+    {
+        "id": 5,
+        "name": "Chicken Cheese Burger",
+        "price": "279.00",
+        "image": "images/chickencheeseburger.avif"
+    },
+    {
+        "id": 6,
+        "name": "Chicken Tikka Pizza",
+        "price": "349.00",
+        "image": "images/chickentikkapizza.avif"
+    },
+    {
+        "id": 7,
+        "name": "Fried Chicken shavarma",
+        "price": "199.00",
+        "image": "images/shavarmafriedchicken.avif"
+    },
+    {
+        "id": 8,
+        "name": "Paneer Fried Shavarma",
+        "price": "179.00",
+        "image": "images/paneerfriedsavarma.avif"
+    },
+    {
+        "id": 9,
+        "name": "Vegetable Pizza",
+        "price": "149.00",
+        "image": "images/vegpizza.avif"
+    },
+    {
+        "id": 10,
+        "name": "Chicken Momos",
+        "price": "299.00",
+        "image": "images/chickenmomos.avif"
+    },
+    {
+        "id": 11,
+        "name": "Chicken Nuggets",
+        "price": "339.00",
+        "image": "images/chickennuggets.avif"
+    },
+    {
+        "id": 12,
+        "name": "Chicken Pasta",
+        "price": "299.00",
+        "image": "images/chickenpasta.avif"
+    },
+    {
+        "id": 13,
+        "name": "Chicken Wings",
+        "price": "279.00",
+        "image": "images/chickenwings.avif"
+    },
+    {
+        "id": 14,
+        "name": "Fish Finger",
+        "price": "249.00",
+        "image": "images/fishfinger.avif"
+    },
+    {
+        "id": 15,
+        "name": "French Fries",
+        "price": "149.00",
+        "image": "images/frenchfries.avif"
+    }
+    
+]
