@@ -968,7 +968,7 @@ footer{
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        margin: 35px auto;
+        margin: 15px auto;
         position: absolute;
         top: 20%;
         left: -100%;
@@ -1100,6 +1100,10 @@ footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+
+    .home .image-container{
+        margin-top:50px;
+   } 
     
 }
 
@@ -1221,5 +1225,6 @@ footer{
     }
     
 }
+
 
 
