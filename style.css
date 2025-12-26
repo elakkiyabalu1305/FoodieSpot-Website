@@ -1008,9 +1008,9 @@ footer{
     align-items: center;
     justify-content: center;
     position: absolute;
-        top: 20%;
-        left: -100%;
-        transform: translateX(-50%);
+    top: 20%;
+    left: -100%;
+    transform: translateX(-50%);
 }
 
     .signin-page-active{
@@ -1100,10 +1100,6 @@ footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-
-    .home .image-container{
-        margin-top:50px;
-   } 
     
 }
 
@@ -1197,6 +1193,14 @@ footer{
         width: 100vw; 
         margin: 0;
     }
+    .mobile-menu{
+        gap: 1.3rem;
+        width: 20rem;
+        padding: 1rem;
+        
+    }
+
+    
 
 }
 
@@ -1225,6 +1229,4 @@ footer{
     }
     
 }
-
-
 
