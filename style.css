@@ -950,6 +950,7 @@ footer{
     #contact p{
     font-size: 1.5rem;
     }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -1011,13 +1012,13 @@ footer{
     top: 20%;
     left: -100%;
     transform: translateX(-50%);
-}
+    }
 
     .signin-page-active{
     top: 20%;
     left: 30%;
     transform: translateX(-50%);
-}
+    }
 
 
     
@@ -1100,7 +1101,10 @@ footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    
+    .menu-section p{
+        text-align: center;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 550px) {
